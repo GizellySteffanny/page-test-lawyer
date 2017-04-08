@@ -51,11 +51,10 @@ body{
 }
 /* Carousel */
 .carousel{
-	margin-top: 4.5%;
+	margin-top: 6%;
 }
 .carousel .carousel-inner{
-	border-bottom-left-radius: 5px; 
-	border-bottom-right-radius: 5px;
+	border-radius: 5px;
 }
 .carousel h1{
 	margin-top: -35%;
