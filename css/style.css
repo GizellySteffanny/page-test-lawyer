@@ -1,0 +1,145 @@
+/* Reset */
+body{
+	background-color: rgb(165, 138, 69);
+
+}
+
+/* Navbar Customized */
+.navbar-outro{
+	width: 100%;
+	height: auto;
+	background-color: black;
+	border-color: #080808;
+}
+.navbar-outro .navbar-brand {
+  color: #a58a45;
+  font-family: 'Niconne', cursive;
+  font-size: 2em;
+}
+.navbar-outro .navbar-brand #img{
+	margin-top: -6%;
+	padding-left: inherit;
+}
+
+.navbar-outro .navbar-brand:hover,
+.navbar-outro .navbar-brand:focus {
+  color: #ceaa4e;
+  background-color: transparent;
+}
+.navbar-outro .navbar-nav > li > a {
+  color: #a58a45;
+  font-family: 'Niconne', cursive;
+  font-size: 1.5em;
+}
+.navbar-outro .navbar-nav > li > a:hover,
+.navbar-outro .navbar-nav > li > a:focus {
+  color: #ceaa4e;
+  background-color: transparent;
+}
+.navbar-outro .navbar-toggle {
+  border-color: #333;
+}
+.navbar-outro .navbar-toggle:hover,
+.navbar-outro .navbar-toggle:focus {
+  background-color: #333;
+}
+.navbar-outro .navbar-toggle .icon-bar {
+  background-color: #fff;
+}
+.navbar-outro .navbar-collapse{
+  border-color: #101010;
+}
+/* Carousel */
+.carousel{
+	margin-top: 4.5%;
+}
+.carousel .carousel-inner{
+	border-bottom-left-radius: 5px; 
+	border-bottom-right-radius: 5px;
+}
+.carousel h1{
+	margin-top: -35%;
+	font-size: 5em;
+	color: #ceaa4e;
+	text-shadow: #000 2px 3px 2px;
+}
+/* Panel */
+.text-outro{
+	font-family: 'Niconne', cursive;
+	font-size: 4.5em;
+	color: black;
+}
+
+.text-xs{
+	font-family: 'Niconne', cursive;
+	font-size: 3em;
+	color: black;
+}
+.panel {
+	border-radius: 5px;
+	box-shadow: #000 0.2em 0.3em 0.2em;
+	margin-bottom: 10%;
+}
+.panel h3{
+	color: #000;
+}
+
+.panel img{
+	width: 100%;
+}
+
+/* Footer Customized */
+.footer {
+	width: 100%;
+	background: #0a0a0a;
+	height: auto;
+	padding-bottom: 30px;
+	position: relative;
+	
+	
+}
+.footer p {
+	margin: 0;
+}
+.footer img {
+	max-width: 100%;
+}
+.footer h3 {
+	color: #ceaa4e;
+	font-size: 18px;
+	font-weight: 600;
+	line-height: 27px;
+	padding: 40px 0 10px;
+	text-transform: uppercase;
+}
+.footer ul {
+	font-size: 1.2em;
+	list-style-type: none;
+	margin-left: 0;
+	padding-left: 0;
+	margin-top: 15px;
+	color: #ceaa4e;
+}
+.footer ul li a {
+	padding: 0 0 5px 0;
+	display: block;
+}
+.footer a {
+	color: #ceaa4e
+}
+.footer-bottom {
+	background: black;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	color: #a58a45;
+}
+.footer .sociais a i{
+	padding-right: 3%;
+}
+.footer .sociais a:hover{
+	text-decoration: none;
+	color: #fff;
+}
+.footer .sociais a i:hover{
+	color: #fff;
+}
